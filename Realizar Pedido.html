@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+</head>
+<body style="background-color:beige"></body>
+    <h1>Aquí realizaras tu Pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Coloque su Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="Numero">Coloque su número de telefono</label><br>
+        <input type="number" id="Numero" name="Numero" placeholder="Numero">
+
+        <br><br>
+
+        <label for="Correo Electronico">Coloque su Correo Electronico</label><br>
+        <input type="text" id="Correo" name="Correo Electronico" placeholder="Correo Electronico">
+
+        <h2>¿Qué pastel le gustaría comprar?</h2>
+        <input type="radio" id="Pequeño" name="Tamaño" value="Pequeño">
+        <label for="Pequeño">Pequeño</label><br>
+        <input type="radio" id="Mediano" name="Tamaño" value="Mediano">
+        <label for="Mediano">Mediano</label><br>
+        <input type="radio" id="Grande" name="Tamaño" value="Grande">
+        <label for="Grande">Grande</label><br>
+        <input type="radio" id="Jumbo" name="Tamaño" value="Jumbo">
+        <label for="Jumbo">Jumbo</label><br>
+
+        <h2>¿De que sabor le gustaría?</h2>
+        <input type="radio" id="Fresa" name="Sabor" value="Fresa">
+        <label for="Fresa">Fresa</label><br>
+        <input type="radio" id="Piña" name="Sabor" value="Piña">
+        <label for="Piña">Piña</label><br>
+        <input type="radio" id="Vainilla" name="Sabor" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+        <input type="radio" id="Coco" name="Sabor" value="Coco">
+        <label for="Coco">Coco</label><br>
+        <input type="radio" id="Chocolate" name="Sabor" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="radio" id="Nuez" name="Sabor" value="Nuez">
+        <label for="Nuez">Nuez</label><br>
+        
+
+        <h2>¿Quiere combinar su pastel?</h2>
+        <input type="radio" id="Valor" name="Valor" value="text">
+        <label for="text">Si</label><br>
+        <input type="radio" id="Valor" name="Valor" value="text">
+        <label for="text">No</label><br>
+
+        <h2>¿Con que sabor combinar su pastel?</h2>
+        <select id="Sabor a combinar" name="Sabor">
+            <option value="Fresa">Fresa</option>
+            <option value="Piña">Piña</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Coco">Coco</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Nuez">Nuez</option>
+        </select>
+
+        <h2>Elige los adornos que quieras en tu pastel.
+            Puedes elgir hasta 3 adornos, considera el precio.
+        </h2>
+
+        <input type="checkbox" id="topping1" name="topping1" value="Punto">
+        <label for="topping1">Adorno Tipo Punto</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Estrella">
+        <label for="topping1">Adorno Tipo Estrella</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Hoja">
+        <label for="topping1">Adorno Tipo Hoja</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Olan">
+        <label for="topping1">Adorno Tipo Olan</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Flores">
+        <label for="topping1">Adorno Tipo Flores</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Canasta">
+        <label for="topping1">Adorno Tipo Canasta</label><br>
+
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <br>
+
+    </form>
+
+    <h2>¿Tienes alguna duda?</h2>
+    <h4>Llamanos al: 222 123 9987</h4>
+    <h3>Nuestro Horario Comercial</h3>
+    <p>Lunes...........................10:00AM - 8:00PM</p>
+    <p>Martes..........................10:00AM - 8:00PM</p>
+    <p>Miercoles.....................10:00AM - 8:00PM</p>
+    <p>Jueves..........................10:00AM - 8:00PM</p>
+    <p>Viernes.........................10:00AM - 8:00PM</p>
+    <p>Sabado..........................10:00AM - 8:00PM</p>
+    <p>Domingo.........................CERRADO</p>
+    <p>Parque Industrial Zona Norte #1014, Puebla, Puebla</p>
+</body>
+</html>
